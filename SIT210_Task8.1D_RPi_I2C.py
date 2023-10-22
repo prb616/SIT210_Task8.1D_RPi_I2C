@@ -40,5 +40,5 @@ try:
         time.sleep(1)
                 
 except KeyboardInterrupt:
-    # Handle keyboard interrupt by cleaning up GPIO (Note: No GPIO cleanup in the code, seems to be missing or unrelated)
+    # Handle keyboard interrupt by cleaning up GPIO 
 GPIO.cleanup()
